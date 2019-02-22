@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EmotionalFaceView">
+        <attr name="radius" format="dimension"/>
+        <attr name="face_color" format="color"/>
+        <attr name="eyes_color" format="color"/>
+        <attr name="mouth_color" format="color"/>
+        <attr name="border_width" format="dimension"/>
+        <attr name="border_color" format="color"/>
+        <attr name="state" format="enum">
+            <enum name="happy" value="0"/>
+            <enum name="sad" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CustomClock">
+        <attr name="time_size" format="dimension"/>
+        <attr name="second_size" format="dimension"/>
+        <attr name="clock_format" format="enum">
+            <enum name="twelve_hour" value="0"/>
+            <enum name="twentyfour_hour" value="1"/>
+        </attr>
+        <attr name="timeColor" format="color"/>
+        <attr name="show_second" format="boolean"/>
+        <attr name="paddingColon" format="dimension"/>
+        <attr name="paddingLeftSecond" format="dimension"/>
+            </declare-styleable>
+</resources>

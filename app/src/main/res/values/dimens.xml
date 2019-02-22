@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="time_size">120dp</dimen>
+    <dimen name="second_size">60dp</dimen>
+    <dimen name="meridiem_size">40dp</dimen>
+</resources>

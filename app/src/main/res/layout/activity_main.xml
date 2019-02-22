@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorBlack"
+    tools:context=".MainActivity">
+
+    <com.ameer.codes.CustomClock
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        app:clock_format="twentyfour_hour"
+        app:timeColor="@color/colorGrey"
+        app:paddingLeftSecond="12dp"
+        app:paddingColon="13dp"
+        app:second_size="@dimen/second_size"
+        app:meridiem_size="@dimen/meridiem_size"
+        app:time_size="@dimen/time_size" />
+
+
+
+
+</RelativeLayout>
