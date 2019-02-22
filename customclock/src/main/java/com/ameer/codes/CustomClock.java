@@ -175,6 +175,7 @@ public class CustomClock extends View {
                         minuteValue = DateFormat.format("mm",mCalendar).toString();
                         secondValue = DateFormat.format("ss",mCalendar).toString();
                         meridiemValue = DateFormat.format("aa",mCalendar).toString();
+                        break;
                     case 1:
                         mCalendar.setTimeInMillis(System.currentTimeMillis());
                         hourValue = DateFormat.format("HH",mCalendar).toString();
